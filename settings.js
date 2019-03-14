@@ -1,5 +1,5 @@
-const DEV_DB_URI = "mongodb+srv://sletmig:test@cluster0-pinkw.azure.mongodb.net/mini_dev?retryWrites=true";
-const TEST_DB_URI = "mongodb+srv://sletmig:test@cluster0-pinkw.azure.mongodb.net/mini_test?retryWrites=true";
+const DEV_DB_URI = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+const TEST_DB_URI = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 const MOCHA_TEST_TIMEOUT = 5000;
 
 module.exports = {
