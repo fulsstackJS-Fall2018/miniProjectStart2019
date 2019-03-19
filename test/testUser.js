@@ -3,11 +3,13 @@ const expect = require("chai").expect;
 var connect = require("../dbConnect.js");
 
 
-//See (for the three lines below): https://github.com/Automattic/mongoose/issues/1251
+/*
+See (for the three lines below): https://github.com/Automattic/mongoose/issues/1251
+Probably not required anymore and could course problems
 mongoose.models = {};
 mongoose.modelSchemas = {};
 mongoose.connection = {};
-
+*/
 var userFacade = require("../facades/userFacade");
 var User = require("../models/User");
 
